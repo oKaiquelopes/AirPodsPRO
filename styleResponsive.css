@@ -1,0 +1,288 @@
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+    }
+    .cabecalho img{
+        display: flex;
+        height: 40px;
+        margin-top: 2%;
+        margin-left: 1%;
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+        height: 85vh;
+        width: 100%;
+    }
+    .textosHome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 280px;
+        margin-top: 15%;
+    }
+    .textosHome h1{
+        font-size: 2.2em;
+    }
+    .paragrafoUM{
+        font-size: 1.2em;
+    }
+    .paragrafoDOIS{
+        font-size: 1.23em;
+    }
+    .btns{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .btnUM{
+        width: 35%;
+        padding: 5px;
+    }
+    .btnDOIS{
+        width: 35%;
+        padding: 5px;
+    }
+    .imagemHome{
+        display: flex;
+        width: 100%;
+        margin-top: 5%;
+        height: 300px;
+    }
+    .imagemHome img{
+        height: 300px;
+    }
+    #sobre{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .sobreTitle{
+        font-size: 1.2em;
+        margin-top: 8%;
+    }
+    .titleSobre{
+        font-size: 1.9em;
+        margin-top: 5%;
+    }
+    .paragrafoSobreUm{
+        font-size: 1.4em;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    #estojoBateria{
+        display: flex;
+        flex-direction: column;
+        height: 110vh;
+    }
+    .titleBateria{
+        font-size: 1.2em;
+        margin-top: 8%;
+    }
+    .titleEstojo{
+        font-size: 1.6em;
+        margin-top: 5%;
+    }
+    .paragrafoBateriaUm{
+        font-size: 1.2em;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    .estojo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 900px;
+    }
+    .infos{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 5%;
+        justify-content: space-evenly;
+    }
+    .horaUM{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        align-items: center;
+        border: 1px solid #303030;
+        border-radius: 10px;
+    }
+    .horaDOIS{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        align-items: center;
+        border: 1px solid #303030;
+        border-radius: 10px;
+    }
+    .titleInfos{
+        font-size: 1.8em;
+    }
+    .infos p{
+        display: flex;
+        font-size: 0.7em;
+    }
+    .imagemEstojo{
+        display: flex;
+        width: 100%;
+        margin-top: 25%;
+
+    }
+    .imgEstojo{
+        height: 250px;
+    }
+    #sobreCase{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+    .imagemUM{
+        display: flex;
+        height: 400px;
+    }
+    .imagemUM img{
+        height: 250px;
+    }
+    .pUM{
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 8%;
+    }
+    .imagemDOIS{
+        display: flex;
+        height: 200px;
+    }
+    .imagemDOIS img{
+        height: 200px;
+    }
+    .imagemTRES{
+        display: flex;
+        height: 350px;
+    }
+    .imagemTRES img{
+        height: 250px;
+        margin-bottom: 5%;
+    }
+    .pTRES{
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 5%;
+        text-align: center;
+        margin: 0;
+    }
+    .imagemQUATRO{
+        display: flex;
+        height: 200px;
+    }
+    .imagemQUATRO img{
+        height: 100px;
+        margin-bottom: 5%;
+    }
+    .pQUATRO{
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 5%;
+        text-align: center;
+        margin: 0;
+    }
+    .imagemCINCO{
+        display: flex;
+        height: 280px;
+    }
+    .imagemCINCO img{
+        height: 180px;
+    }
+    .pCINCO{
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 8%;
+    }
+    #appleMusic{
+        display: flex;
+        flex-direction: column;
+        height: 35vh;
+    }
+    .textosMusic{
+        display: flex;
+        width: 100%;
+        height: 220px;
+        justify-content: flex-start;
+    }
+    .imagemM{
+        display: flex;
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 100%;
+        height: 30px;
+    }
+    .textosM{
+        margin-top: 8%;
+        display: flex;
+        flex-direction: column;
+        height: 180px;
+    }
+    .textosM h1{
+        font-size: 1.4em;
+        margin-left: 3%;
+    }
+    .textosM a{
+        width: 25%;
+        margin-left: 3%;
+        margin-top: 8%;
+    }
+    .imagemM img{
+        height: 30px;
+    }
+    .imagemMusic{
+        display: none;
+    }
+    #fim{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .entrega{
+        width: 100%;
+        height: 180px;
+    }
+    .icon{
+        height: 50px;
+        display: flex;
+
+    }
+    .icon img{
+        height: 30px;
+    }
+    .entrega h2{
+        font-size: 1.4em;
+    }
+    .entrega p{
+        font-size: 0.9em;
+    }
+    .pagamento{
+        width: 100%;
+        height: 180px;
+    }
+    .pagamento h2{
+        font-size: 1.4em;
+    }
+    .pagamento p{
+        font-size: 0.9em;
+    }
+    .chat{
+        width: 100%;
+        height: 180px;
+    }
+    .chat h2{
+        font-size: 1.4em;
+    }
+    .chat p{
+        font-size: 0.9em;
+    }
+}

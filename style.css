@@ -72,7 +72,6 @@ body{
     text-decoration: none;
     text-align: center;
     box-sizing: border-box;
-    
     box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 8px;
@@ -83,7 +82,6 @@ body{
 .btnUM:hover{
     background-color: #303030;
     transition: all 0.4s ease-out;
-    
     color: rgba(240, 240, 240, 1);
 }
 .btnDOIS{
@@ -442,6 +440,13 @@ body{
     text-align: center;
     margin-top: 2%;
 }
+.linkEntrega{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #1674c0;
+    text-decoration: none;
+    margin-top: 2%;
+}
 .pagamento{
     width: 30%;
     height: 250px;
@@ -459,6 +464,13 @@ body{
     font-weight: 400;
     color: #303030;
     text-align: center;
+    margin-top: 2%;
+}
+.linkPagamento{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #1674c0;
+    text-decoration: none;
     margin-top: 2%;
 }
 .chat{
@@ -480,9 +492,13 @@ body{
     text-align: center;
     margin-top: 2%;
 }
-
-
-
+.linkChat{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #1674c0;
+    text-decoration: none;
+    margin-top: 2%;
+}
 footer{
     height: 150px;
     background-color: #303030;
